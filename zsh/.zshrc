@@ -59,6 +59,7 @@ alias cdh='cd ~/'
 alias pdf='~/termpdf.py/termpdf.py'
 alias leaktest='ASAN_OPTIONS=detect_leaks=1 ./test'
 alias makejson='bear -- make'
+alias mygpu='ssh ilhyeonchu@100.89.211.62'
 
 # go to dotfiles directory
 cdinit() {
@@ -101,3 +102,6 @@ export NVM_DIR="$HOME/.nvm"
 # Created by `pipx` on 2025-09-18 13:12:56
 export PATH="$PATH:/home/ilhyeonchu/.local/bin"
 export PATH="$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH"
+
+#eval $(thefuck --alias)
+#eval $(thefuck --alias FUCK)
