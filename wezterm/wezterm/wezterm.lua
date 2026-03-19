@@ -133,7 +133,8 @@ config.keys = {
 	}, ]]
 	{ key = "9", mods = "LEADER",       action = act.EmitEvent("activate-ide") },
 	{ key = "t", mods = "LEADER",       action = wezterm.action.SpawnTab("CurrentPaneDomain") },
-	{ key = "w", mods = "LEADER",       action = wezterm.action.CloseCurrentTab({ confirm = true }) },
+	{ key = "q", mods = "LEADER",       action = wezterm.action.CloseCurrentTab({ confirm = true }) },
+	{ key = "w", mods = "LEADER",		action = wezterm.action.CloseCurrentPane({ confirm = true }) },
 	{ key = "h", mods = "LEADER",       action = wezterm.action.ActivatePaneDirection("Left") },
 	{ key = "l", mods = "LEADER",       action = wezterm.action.ActivatePaneDirection("Right") },
 	{ key = "k", mods = "LEADER",       action = wezterm.action.ActivatePaneDirection("Up") },
