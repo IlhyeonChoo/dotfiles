@@ -29,7 +29,7 @@ export OBSIDIAN_VAULT="/home/ilhyeonchu/Documents/GitHub/obsidian"
 # 단축어 모음
 typeset -A shortcuts
 shortcuts=(
-    nv "nvim/.config/nvim/"
+    nv "~/.config/nvim/"
     tm "tmux"
     wez "wezterm"
     ip "Image-Processing"
