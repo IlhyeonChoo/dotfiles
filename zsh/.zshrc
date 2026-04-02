@@ -29,12 +29,9 @@ export OBSIDIAN_VAULT="/home/ilhyeonchu/Documents/GitHub/obsidian"
 # 단축어 모음
 typeset -A shortcuts
 shortcuts=(
-    nv "~/.config/nvim/"
-    tm "tmux"
-    wez "wezterm"
-    ip "Image-Processing"
-    dc "Data-Communication"
-    upl "UPL25"
+    nv ".config/nvim/"
+    tm "dotfiles/tmux"
+    wez "dotfiles/wezterm"
     blog "ilhyeon-study-log.github.io"
 )
 _get_target_dir() {
@@ -65,7 +62,7 @@ alias mygpu='ssh ilhyeonchu@100.89.211.62'
 # go to dotfiles directory
 cdinit() {
     local target_dir=$(_get_target_dir "$1")
-    cd ~/dotfiles/$target_dir
+    cd ~/$target_dir
 }
 
 # go to git directory
