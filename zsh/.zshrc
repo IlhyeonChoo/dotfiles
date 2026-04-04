@@ -105,4 +105,6 @@ export PATH="$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH"
 #eval $(thefuck --alias FUCK)
 
 # OpenClaw Completion
-source "/home/ilhyeonchu/.openclaw/completions/openclaw.zsh"
+if [ -f "/home/ilhyeonchu/.openclaw/completions/openclaw.zsh" ]; then
+  source "/home/ilhyeonchu/.openclaw/completions/openclaw.zsh"
+fi
